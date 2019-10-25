@@ -11,6 +11,7 @@ import { TanquearComponent } from './tanquear/tanquear.component';
 import { TanquearService } from './tanquear/servicios/tanquear.service';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './login/servicios/login.service';
+import { BuscadorComponent } from './buscador/buscador.component';
 
 const appRoutes: Routes = [
 {path:'tanquear',component: TanquearComponent},
@@ -21,7 +22,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     )],
-  declarations: [ AppComponent, HelloComponent, MenuComponent, TanquearComponent, LoginComponent],
+  declarations: [ AppComponent, HelloComponent, MenuComponent, TanquearComponent, LoginComponent, BuscadorComponent],
   bootstrap:    [ AppComponent ],
   providers: [MenuService, TanquearService, LoginService]
 })

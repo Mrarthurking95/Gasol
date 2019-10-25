@@ -12,6 +12,11 @@ import { TanquearService } from './tanquear/servicios/tanquear.service';
 import { LoginComponent } from './login/login.component';
 import { LoginService } from './login/servicios/login.service';
 import { BuscadorComponent } from './buscador/buscador.component';
+import { PagarComponent } from './pagar/pagar.component';
+import { SaldodisComponent } from './saldodis/saldodis.component';
+import { TipogasComponent } from './tipogas/tipogas.component';
+import { TransexitComponent } from './transexit/transexit.component';
+import { HistotransComponent } from './histotrans/histotrans.component';
 
 const appRoutes: Routes = [
 {path:'tanquear',component: TanquearComponent},
@@ -22,7 +27,7 @@ const appRoutes: Routes = [
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     )],
-  declarations: [ AppComponent, HelloComponent, MenuComponent, TanquearComponent, LoginComponent, BuscadorComponent],
+  declarations: [ AppComponent, HelloComponent, MenuComponent, TanquearComponent, LoginComponent, BuscadorComponent, PagarComponent, SaldodisComponent, TipogasComponent, TransexitComponent, HistotransComponent],
   bootstrap:    [ AppComponent ],
   providers: [MenuService, TanquearService, LoginService]
 })

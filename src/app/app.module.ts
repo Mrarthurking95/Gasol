@@ -22,6 +22,9 @@ const appRoutes: Routes = [
 {path:'tanquear',component: TanquearComponent},
 {path:'pagar',component: PagarComponent},
 {path:'saldodis',component: SaldodisComponent},
+{path:'tipogas',component: TipogasComponent},
+{path:'transexit',component: TransexitComponent },
+{path:'histotrans',component: HistotransComponent},
 ];
 @NgModule({
   imports:      [ BrowserModule, FormsModule,   RouterModule.forRoot(

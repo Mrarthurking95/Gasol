@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./saldodis.component.css']
 })
 export class SaldodisComponent implements OnInit {
-
-  constructor() { }
+  saldo:number;
+  constructor() {
+    this.saldo=1500;
+   }
 
   ngOnInit() {
   }

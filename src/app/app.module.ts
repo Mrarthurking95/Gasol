@@ -20,7 +20,8 @@ import { HistotransComponent } from './histotrans/histotrans.component';
 
 const appRoutes: Routes = [
 {path:'tanquear',component: TanquearComponent},
-
+{path:'pagar',component: PagarComponent},
+{path:'saldodis',component: SaldodisComponent},
 ];
 @NgModule({
   imports:      [ BrowserModule, FormsModule,   RouterModule.forRoot(
